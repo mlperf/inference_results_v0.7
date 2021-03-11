@@ -15,7 +15,7 @@ Both weight tensors and bias tensors are quantized to int8.
 A per-tensor symmetric quantization is used. The scaling factor of each tensor is calibrated by invoking the model on the calibration dataset (from the mlperf calibration dataset). The histogram of the scaling factor is record over mini-batches and the most commonly used value is set.
 Based on the scaling factor the activation tensor is clamped and quantized.  
 
-## Furthur improvement
+## Further improvement
 
 To improve quantization performance we employ cross layer equalization[1] when needed.
 
