@@ -3,4 +3,4 @@ tpu-quantize==3.2.1
 tpu_compiler_frontend==14.0.0
 iva-applications==6.4.1
 click==7.1.2
-Pillow==7.2.0
+Pillow==10.3.0
