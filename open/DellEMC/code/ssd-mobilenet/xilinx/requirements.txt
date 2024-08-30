@@ -11,7 +11,7 @@ Markdown==3.1
 #mlperf-loadgen==0.5a0
 mock==3.0.5
 numpy==1.16.3
-opencv-python==4.1.0.25
+opencv-python==4.8.1.78
 Pillow==6.0.0
 protobuf==3.7.1
 pycocotools==2.0.0
